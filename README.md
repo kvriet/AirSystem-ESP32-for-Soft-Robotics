@@ -7,9 +7,9 @@ Special thanks to Geert van den Boomen for checking the schematics and debugging
 ## The system
 ![Example application](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Media/airsystem_ESP32.png)
 
-**AirSystem** was designed as a low-cost way to rapidly prototype with air, costing roughly €125 for the entire system. AirSystem consists of 1 controller and 4 pneumatic units. Each pneumatic unit contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
+**AirSystem-ESP32** was designed as a low-cost way to rapidly prototype with air, costing roughly €50 for the entire system. AirSystem consists of 1 controller, 4 pneumatic components (pumps and valves), and 2 pressure sensors. Through a 12V power brick, the board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the board. 
 
-![System overview](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/system%20overview.png)
+![System overview](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Media/air%20system%20board.png)
 
 ### Pneumatic Components
 For the pneumatic board, easy-to-find components are used:
@@ -18,11 +18,11 @@ For the pneumatic board, easy-to-find components are used:
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
 ### Manual
-A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Air%20System%20manual.pdf)
-Users are free to connect the sensor, pump, and valve to their inflatables as desired. However, a sample pneumatic circuit is outlined in the manual, along with example Arduino sketches that work well with such a circuit.
+A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Air%20System%20manual%20pcb%20v1.0.pdf)
+Users are free to connect the sensor, pump, and valve to their inflatables as desired. Example Arduino sketches are provided that work well with the board to control inflatables.
 
 ## Arduino Library
-The system is controlled by a Waveshare RP2040 Zero and can be programmed through the Arduino IDE with a custom library: [AirSystem](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem) This folder should be placed in the libraries folder of the Arduino folder. 
+The system is controlled by a Waveshare ESP32-C3-Zero and can be programmed through the Arduino IDE with a custom library: [AirSystem](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem-ESP) This folder should be placed in the libraries folder of the Arduino folder. I select the XIAO_ESP32C3 board to upload sketches to the board.
 
 The library comes with 7 examples that showcase the abilities of **AirSystem**:
   1. Manual control
@@ -30,12 +30,8 @@ The library comes with 7 examples that showcase the abilities of **AirSystem**:
   3. Pump control
   4. Valve control
   5. Pump control without delay
-  6. Haptic effects
+  6. Other configurations
   7. Object arrays
-
-The video below shows such a haptic effect:
-
-![Example application](https://raw.githubusercontent.com/kvriet/AirSystem-for-Soft-Robotics/refs/heads/main/Media/pneumatic%20button.gif)
 
 ## Schematics and KiCAD Files
 The schematics for this project and the KiCAD files can be found here: [KiCAD folder](https://github.com/kvriet/AirSystem-for-Soft-Robotics/tree/main/KiCAD).
