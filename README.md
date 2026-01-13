@@ -1,11 +1,11 @@
 # AirSystem for Soft Robotics
-Modular Air System for Soft Robotics\
-Designed and created by [C.M. van Riet](https://research.tue.nl/en/persons/cm-katrien-van-riet) - Summer 2025\
+Modular Air System for Soft Robotics using ESP32\
+Designed and created by [C.M. van Riet](https://research.tue.nl/en/persons/cm-katrien-van-riet) - Jan 2026\
 With thanks to d.search at Eindhoven University of Technology for their guidance.\
 Special thanks to Geert van den Boomen for checking the schematics and debugging the circuits.
 
 ## The system
-![Example application](https://github.com/kvriet/AirSystem-for-Soft-Robotics/blob/main/Media/modular%20Air%20System.jpg)
+![Example application](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Media/airsystem_ESP32.png)
 
 **AirSystem** was designed as a low-cost way to rapidly prototype with air, costing roughly €125 for the entire system. AirSystem consists of 1 controller and 4 pneumatic units. Each pneumatic unit contains one pump, one solenoid valve, and one pressure sensor. The board provides 12V power and as such, any pump or solenoid that requires 12V power can be attached to the unit board. 
 
