@@ -1,0 +1,24 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Katrien will provide
+"C1,C4,C5,C6,C7,C8",100nF,~,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,6,,no
+"C2,C3",100uF,~,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,2,,no
+"D1,D7",LED_Blue,~,LED_THT:LED_D3.0mm,2,,no
+"D2,D8",LED_Red,~,LED_THT:LED_D3.0mm,2,,no
+"D3,D4,D9,D10",1N4001,http://www.vishay.com/docs/88503/1n4001.pdf,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,4,,no
+"D5,D6,D11,D12",1N4148,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,4,,no
+D13,LED_Small,~,LED_THT:LED_D3.0mm,1,,no
+J1,Barrel_Jack,https://www.tinytronics.nl/en/cables-and-connectors/connectors/dc-jack/dc-jack-plastic-5.5mm-female,Connector_BarrelJack:BarrelJack_Horizontal,1,,yes
+"J2,J3",Conn,~,-- mixed values --,2,,no
+J4,GND,~,TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm,1,DNP,no
+"JP1,JP2,JP3,JP4,JP5,JP6",jumper,~,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,6,,no
+"M1,M3",Pump,~,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",2,,yes
+"M2,M4",Valve,~,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",2,,yes
+"Q1,Q2,Q3,Q4",IRLB8743PBF,https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlr8743-datasheet-en.pdf,Package_TO_SOT_THT:TO-220-3_Vertical,4,,no
+"R1,R2,R3,R4",1k,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,DNP,no
+"R5,R11,R17",3k3,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3,,no
+"R6,R12",1k2,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2,,no
+"R7,R8,R13,R14",1k,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,,no
+"R9,R10,R15,R16",100k,~,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4,,no
+SW1,SW_SPST,https://www.tinytronics.nl/en/switches/manual-switches/rocker-switches/standaard-built-in-rocker-switch-small,Library:SW_rocker_switch_small,1,,yes
+"SW2,SW3,SW4,SW5",SW_Push,~,Button_Switch_THT:SW_PUSH_6mm,4,,no
+"U1,U2",~,,Library:MCP_H10_breakout,2,,yes
+U3,ESP32-C3-Zero,,ESP32-C3-Zero,1,,yes
