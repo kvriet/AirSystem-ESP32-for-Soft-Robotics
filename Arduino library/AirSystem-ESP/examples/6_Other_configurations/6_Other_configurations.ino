@@ -1,3 +1,10 @@
+// In the previous examples, we assumed that the board layout contained 2 pumps and 2 valves 
+// in a pump, valve, pump, valve configuration. 
+// However, if you want to use different configurations, we need more generic names to call these components. 
+// For this we use the 'motor' designation: M1, M2, M3, M4. This does not affect how the sensors are called.
+// Because Arduino does not know what type of component it is addressing, 
+// control functions are limited to .set(percentage), on(), and .off()
+
 #include <AirSystem-ESP.h>
 
 void setup() {

@@ -26,6 +26,9 @@
    - This example can be found under File > Examples > AirSystem-ESP > 1_First_demo.
 */
 
+//The pump and valves can be operated through the push buttons on the follower unit.
+// Upload the following code. It will not activate the pumps or valves. Instead you can press the pump and valve buttons to inflate and deflate your pneumatic button.
+
 #include <AirSystem-ESP.h>
 
 void setup() {

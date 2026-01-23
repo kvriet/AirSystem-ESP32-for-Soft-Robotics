@@ -1,3 +1,9 @@
+// To get the pressure sensor value, use the read() function.
+
+// Upload the following code. 
+// Use the push buttons to inflate and deflate your pneumatic button 
+// and use the Serial Monitor and Serial Plotter to watch the pressure value fluctuate.
+
 #include <AirSystem-ESP.h>
 
 void setup() {

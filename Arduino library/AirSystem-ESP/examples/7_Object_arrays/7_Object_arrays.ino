@@ -1,3 +1,8 @@
+// In the previous examples we worked with named objects for the pump and valve. 
+// However, you can also directly address these objects within they object array. 
+// This can be useful if you want to loop through the objects. 
+// The code below shows you how to access pumps and valves through motors[i].
+
 #include <AirSystem-ESP.h>
 
 int motorPercentage = 0;

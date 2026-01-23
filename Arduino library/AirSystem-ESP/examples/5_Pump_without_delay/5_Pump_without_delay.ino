@@ -1,5 +1,11 @@
 // Pump without delay based on the code by David A. Mellis
 
+// In step 4 we turned the pump on and off. We used the delay() function for this, 
+// but this freezes up the entire program; you can't do anything else during the delay. 
+// To fix this, the code below gives pump control without delay, 
+// similar to the 'Blink without delay' example in the Arduino library. 
+// For this to work, we use a general timer (currentMillis) to keep track of time.
+
 #include <AirSystem-ESP.h>
 
 // Variables will change:

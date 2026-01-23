@@ -1,3 +1,9 @@
+// The code below is similar to the code in step 3, but it adds valve control. 
+// Now you can inflate and deflate your pouch.
+
+// - Play with the pump power percentage and the timing (delay) 
+// to get an aesthetically pleasing inflation and deflation of your pouch.
+
 #include <AirSystem-ESP.h>
 
 void setup() {

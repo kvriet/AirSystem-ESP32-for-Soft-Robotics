@@ -1,3 +1,9 @@
+// The code below turns the pump on and off.
+
+// - Try to change the delay values. How does the pump turning on and off change? 
+// - Try to change the value in the set() function. How does it change the pump behaviour? 
+// - If you connect the pump to your pneumatic button, will it only inflate? Or also deflate?
+
 #include <AirSystem-ESP.h>
 
 void setup() {
