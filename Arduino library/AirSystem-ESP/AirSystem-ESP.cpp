@@ -28,11 +28,11 @@ void Valve::begin(int valvePin) {
 }
 
 void Valve::open() {
-  digitalWrite(pin, HIGH);
+  analogWrite(pin, 255);
 }
 
 void Valve::close() {
-  digitalWrite(pin, LOW);
+  analogWrite(pin, 0);
 }
 
 // ------------------- Sensor -------------------
