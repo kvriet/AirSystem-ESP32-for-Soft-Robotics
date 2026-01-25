@@ -18,11 +18,11 @@ For the pneumatic board, easy-to-find components are used:
 3. MCP-H10 pressure sensor, 0-200kPa, 3.3V
 
 ### Manual
-A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Air%20System%20manual%20pcb%20v1.0.pdf)
+A manual for AirSystem describes in detail how the system works and how the Arduino library can be installed: [AirSystem Manual](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/Air%20System%20manual%20pcb%20v1.3.pdf)
 Users are free to connect the sensor, pump, and valve to their inflatables as desired. Example Arduino sketches are provided that work well with the board to control inflatables.
 
 ## Arduino Library
-The system is controlled by a Waveshare ESP32-C3-Zero and can be programmed through the Arduino IDE with a custom library: [AirSystem](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/tree/main/Arduino%20library/AirSystem-ESP) This folder should be placed in the libraries folder of the Arduino folder. I select the XIAO_ESP32C3 board to upload sketches to the board.
+The system is controlled by a Waveshare ESP32-C3-Zero and can be programmed through the Arduino IDE with a custom library: [AirSystem](https://github.com/kvriet/AirSystem-ESP32-for-Soft-Robotics/blob/main/AirSystem-ESP.zip) This folder should be unzipped and placed in the libraries folder of the Arduino folder, or imported (zipped) as a library in the Arduino IDE. Select the XIAO_ESP32C3 board to upload sketches to the board.
 
 The library comes with 7 examples that showcase the abilities of **AirSystem**:
   1. Manual control
